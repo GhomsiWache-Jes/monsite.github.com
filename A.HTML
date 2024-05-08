@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="A.CSS">
+    <title>Authentification</title>
+</head>
+<body>
+  <nav>
+    <a href="B.HTML">Boutique</a><br>
+    <a href="C.HTML">A propos</a>
+  </nav>
+    <h1>Authentification</h1>
+    <form>
+      <!-- <label for="identifiant">Identifiant :</label> -->
+      <input type="text" id="identifiant" placeholder="Entrez votre identifiant">
+      <br>
+      <!-- <label for="mot_de_passe">Mot de passe :</label> -->
+      <input type="password" id="mot_de_passe" placeholder="Entrez votre mot de passe">
+      <input type="email" name="email" placeholder="Email">
+      <br>
+      <select name="langue">
+        <option value="fr">Français</option>
+        <option value="en">Anglais</option>
+      </select>
+      <br>
+      <label for="sex">Sex :</label>
+       M<input type="radio" name="sex"> F<input type="radio" name="sex">
+      <br>
+      <label for="remember_me">Se souvenir de moi</label>
+      <input type="checkbox" id="remember_me">
+      <input type="submit" value="Connexion" >
+    </form> 
+</body>
+</html>
